@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F;
+}
+
+.headline{
+	width: 1024px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.headline-title{
+	height: 70px;
+	float: left;
+}
+nav{
+	float: right;
+}
+
+
+
+.headline-list{
+	font-size: 16px;
+	margin: 0 30px;
+	list-style: none;
+	display: inline-block;
+	line-height: 70px;
+}
+.headline-list a{
+	color: white;
+	text-decoration: none;
+}
+
+.main-visual {
+	width: 100%;
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.main-visual-title {
+	padding-top: 200px;
+	text-align: center;
+	font-size: 64px;
+	color: white;
+}
+
+.main-visual-text {
+	padding-top: 10px;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+
+.portfolio{
+	width: 100%;
+	background-color: #ECEFF1;
+}
+
+.portfolio-contents {
+	width: 920px;
+	padding: 90px 0;
+	margin: 0 auto
+}
+
+.portfolio-title {
+	padding-bottom: 8px;
+	text-align: center;
+	font-size: 32px;
+	color: black;
+}
+
+.portfolio-title::after {
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	background-color: #EC715F;
+	margin:0 auto;
+}
+
+.portfolio-text {
+	padding: 30px 0;
+	text-align: center;
+	font-size: 16px;
+	color: black;
+}
+
+
+.portfolio-item {
+	float: left;
+	width: 300px;
+	height: 250px;
+	margin:  5px  0 ;
+	background-size: cover;
+	background-position: center;
+}
+div .portfolio-item:nth-child(3) {
+	background-image: url(img/sketch.jpg);
+	margin-right: 0;
+}
+
+div .portfolio-item:nth-child(4) {
+	background-image: url(img/websuku.png);
+	margin:5px 10px;
+}
+
+div .portfolio-item:nth-child(5) {
+	background-image: url(img/write.jpg);
+}
+
+div .portfolio-item:nth-child(6) {
+	background-image: url(img/webcamp.png);
+	margin:5px 0px 90px;
+}
+
+div .portfolio-item:nth-child(7) {
+	background-image: url(img/talk.jpg);
+	margin:5px 10px 90px;
+
+}
+div .portfolio-item:nth-child(8) {
+	background-image: url(img/webcamp-mother.png);
+	margin:5px 0px 90px;
+}
+
+
+.feature{
+	width: 980px;
+}
+
+.feature-contents {
+	padding-top: 90px;
+	text-align: center;
+}
+
+.feature-title{
+	font-size: 32px;
+	color: black;
+	padding-bottom: 8px
+}
+
+
+.feature-title::after {
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	background-color: #EC715F;
+	margin:0 auto;
+}
+
+.feature-text{
+	font-size: 16px;
+	color: black;
+	padding: 30px 0;
+	text-align: center;
+}
+
+.feature-categories{
+	width: 320px;
+	float: left;
+	text-align: center;
+}
+
+.feature-categories:nth-child(1){
+	margin: 0 10px;
+}
+
+.fab {
+	font-size: 60px;
+}
+
+.feature-categories-title{
+	font-size: 20px;
+	color: black;
+	padding: 10px 0;
+}
+
+.feature-categories-text{
+	font-size: 16px;
+	color: black;
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
